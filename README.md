@@ -27,3 +27,19 @@ Admins can upload book details, cover images, and PDF files. Users can browse, s
 - **File Handling:** Uses `multer` middleware to handle file uploads on the backend.  
 - **Title Search:** Search bar on the homepage to filter books by title dynamically.  
 - **Optimized Images:** Next.js `<Image>` component ensures automatic image optimization for faster loading.
+
+
+/bookstore-project
+├── /client/ # Next.js Frontend
+│ ├── /app/
+│ │ ├── /components/ # Reusable UI components (Navbar, Footer)
+│ │ └── ... # Pages & routes (home, about, login, etc.)
+│ ├── next.config.mjs
+│ └── package.json
+└── /server/ # Express.js Backend
+├── /public/
+│ └── /uploads/ # Uploaded images and PDFs
+├── /routes/ # API route handlers (bookRoutes, userRoutes)
+├── .env # Environment variables (DB credentials, JWT secret)
+├── index.js # Main server entry point
+└── package.json
