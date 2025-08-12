@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/FStack/BookStoreToMe/client/app/register/page.tsx"],"sourcesContent":["// This is our Register Page component\r\nexport default function RegisterPage() {\r\n  return (\r\n    <div>\r\n      <h1 className=\"text-2xl font-bold text-center my-8\">Create an Account</h1>\r\n      {/* A registration form will be added here later */}\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,sCAAsC;;;;;;AACvB,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAG,WAAU;sBAAsC;;;;;;;;;;;AAI1D","debugId":null}}]
+}
